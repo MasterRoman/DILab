@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DIContainerLib
 {
-    public struct Container
+    public class Container
     {
         public Type type { get; }
         public Lifetime lifetime { get; }
